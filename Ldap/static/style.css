@@ -1,0 +1,38 @@
+/* static/style.css */
+
+header {
+    background-color: #0074D9;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    background-color: #7FDBFF;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+}
+
+footer {
+    background-color: #DDDDDD;
+    padding: 10px;
+    text-align: center;
+}
