@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Server Disk Space Usage</title>
+    <style>
+        img {
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    {% for chart in charts %}
+    <h2>{{ chart['server_name'] }} - {{ chart['server_type'] }}</h2>
+    <img src="{{ chart['chart'] }}" alt="{{ chart['server_name'] }} Disk Usage Chart">
+    {% endfor %}
+</body>
+</html>
